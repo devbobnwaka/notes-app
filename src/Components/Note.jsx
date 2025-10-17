@@ -1,4 +1,4 @@
-const Note = (note, deleteNote) => {
+const Note = ({ note, deleteNote }) => {
   return (
     <div
       className="p-4 bg-white rounded-lg shadow-md border-l-4"
